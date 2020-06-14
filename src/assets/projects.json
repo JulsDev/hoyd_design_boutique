@@ -1,0 +1,92 @@
+[
+  {
+    "img": "../img/logo.png",
+    "alt": "MOS PARKING",
+    "title": "MOS PARKING",
+    "descr": "Мобильное приложение для оплаты московских парковок в одно нажатие",
+    "workType": "Аналитика + Проектирование + Дизайн",
+    "workLink": "http://mosparking.ru/",
+    "workLinkText": "www.mosparking.com"
+  },
+  {
+    "img": "../img/logo.png",
+    "alt": "Cashwagon",
+    "title": "Cashwagon",
+    "descr": "Web and mobile design for an international digital platform providing access to a broad range of consumer financial product",
+    "workType": "iOS / Android / Web",
+    "workLink": "https://cashwagon.com",
+    "workLinkText": "www.cashwagon.com"
+  },
+  {
+    "img": "../img/logo.png",
+    "alt": "Blackcatcard",
+    "title": "Blackcatcard",
+    "descr": "Large European bank partnered with Hoyd to improve the new features of their native mobile app and website",
+    "workType": "iOS / Android / Web",
+    "workLink": "https://blackcatcard.com",
+    "workLinkText": "www.blackcatcard.com"
+  },
+  {
+    "img": "../img/logo.png",
+    "alt": "Vera ID",
+    "title": "Vera ID",
+    "descr": "Website layout of blockchain platform designed to digital identify individuals or companies",
+    "workType": "iOS / Android / Web",
+    "workLink": "https://myvera.id",
+    "workLinkText": "www.myvera.id"
+  },
+  {
+    "img": "../img/logo.png",
+    "alt": "Buyex",
+    "title": "Buyex",
+    "descr": "International crypto exchanger",
+    "workType": "Web / Identity",
+    "workLink": "https://buyex.exchange",
+    "workLinkText": "www.buyex.exchange"
+  },
+  {
+    "img": "../img/logo.png",
+    "alt": "Vera ID",
+    "title": "Vera ID",
+    "descr": "Website layout of blockchain platform designed to digital identify individuals or companies",
+    "workType": "iOS / Android / Web",
+    "workLink": "https://myvera.id",
+    "workLinkText": "www.myvera.id"
+  },
+  {
+    "img": "../img/logo.png",
+    "alt": "Welli",
+    "title": "Welli",
+    "descr": "User-centered design for the website layout of an unique fitness platform with real-time diet and workout tracking",
+    "workType": "WEB",
+    "workLink": "https://welli.app/",
+    "workLinkText": "www.welli.app"
+  },
+  {
+    "img": "../img/logo.png",
+    "alt": "Filmsclub",
+    "title": "Filmsclub",
+    "descr": "Web and mobile design for a streaming service that offers a wide variety of TV shows, movies and more on thousands of internet-connected devices",
+    "workType": "WEB",
+    "workLink": "https://filmsclub.tv/",
+    "workLinkText": "www.filmsclub.tv"
+  },
+  {
+    "img": "../img/logo.png",
+    "alt": "Riolis",
+    "title": "Riolis",
+    "descr": "Website redesign for the biggest online store of needlework products that has been operating for about 15 years",
+    "workType": "WEB / Concept",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "img": "../img/logo.png",
+    "alt": "Anonimous",
+    "title": "Anonimous",
+    "descr": "A complete graphic web design and responsive solution for a multi currency crypto wallet Anonimous.",
+    "workType": "Web / Identity",
+    "workLink": "",
+    "workLinkText": ""
+  }
+]

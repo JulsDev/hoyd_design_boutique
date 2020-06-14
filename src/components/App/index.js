@@ -1,13 +1,16 @@
 import React from 'react';
+import Header from '../Header';
+import Footer from '../Footer';
+import MainContent from '../MainContent';
 
 
 export default function App() {
 
   return (
-    <div className="container">
-      <h1>
-        Привет! Я из App
-      </h1>
+    <div className="wrapper">
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   )
 }
