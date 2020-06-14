@@ -1,0 +1,16 @@
+.title {
+  font-family: 'SFProDisplay';
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: 10px;
+  color: $title;
+  text-transform: uppercase;
+  text-align: center;
+
+  @include tablets {
+    font-size: 32px;
+  }
+  @include phones {
+    font-size: 24px;
+  }
+}

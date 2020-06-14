@@ -1,0 +1,58 @@
+.section-cases {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 20px 0;
+
+  @include phones {
+    padding: 120px 10px 0;
+  }
+}
+
+.title.title__cases {
+  margin-bottom: 40px;
+}
+.cases-tags__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.cases-tags__item {
+  max-width: 180px;
+  max-height: 52px;
+  padding: 13px 23px;
+  border-radius: 100px;
+  background-color: $field;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+
+  font-family: AvenirNext;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.cases-tags__link {
+  color: $text;
+  margin-right: 10px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.case-block__list {
+  max-width: 85%;
+  @include phones {
+    max-width: 95%;
+  }
+}
+.button__case {
+  max-width: 415px;
+  @include phones {
+    max-width: 85%;
+  }
+}

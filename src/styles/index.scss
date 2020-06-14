@@ -1,0 +1,14 @@
+//scrins
+$desktop-xl: "1440px";
+$desktop: "1024px";
+$tablets: "768px";
+$phones: "425px";
+$phones-xs: "375px";
+
+
+// notmalize
+@import "_misc/normalize.scss";
+
+// layout
+@import "_misc/index.scss";
+//@import "blocks/index.scss";

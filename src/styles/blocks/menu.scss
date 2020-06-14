@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  margin-right: 76px;
+
+  @include tablets {
+    margin-right: 0;
+  }
+}
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 37px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.nav-link {
+  color: $text;
+  
+  &:hover {
+    color: $link;
+  }
+}
