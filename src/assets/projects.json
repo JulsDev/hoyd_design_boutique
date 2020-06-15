@@ -1,15 +1,8 @@
 [
   {
-    "img": "../img/logo.png",
-    "alt": "MOS PARKING",
-    "title": "MOS PARKING",
-    "descr": "Мобильное приложение для оплаты московских парковок в одно нажатие",
-    "workType": "Аналитика + Проектирование + Дизайн",
-    "workLink": "http://mosparking.ru/",
-    "workLinkText": "www.mosparking.com"
-  },
-  {
-    "img": "../img/logo.png",
+    "id": 1,
+    "logo": "cashwagon-logo.png",
+    "mainImage": "cashwagon.png",
     "alt": "Cashwagon",
     "title": "Cashwagon",
     "descr": "Web and mobile design for an international digital platform providing access to a broad range of consumer financial product",
@@ -18,7 +11,9 @@
     "workLinkText": "www.cashwagon.com"
   },
   {
-    "img": "../img/logo.png",
+    "id": 2,
+    "logo": "../img/logo.png",
+    "mainImage": "",
     "alt": "Blackcatcard",
     "title": "Blackcatcard",
     "descr": "Large European bank partnered with Hoyd to improve the new features of their native mobile app and website",
@@ -27,7 +22,9 @@
     "workLinkText": "www.blackcatcard.com"
   },
   {
-    "img": "../img/logo.png",
+    "id": 3,
+    "logo": "../img/logo.png",
+    "mainImage": "",
     "alt": "Vera ID",
     "title": "Vera ID",
     "descr": "Website layout of blockchain platform designed to digital identify individuals or companies",
@@ -36,7 +33,9 @@
     "workLinkText": "www.myvera.id"
   },
   {
-    "img": "../img/logo.png",
+    "id": 4,
+    "logo": "../img/logo.png",
+    "mainImage": "",
     "alt": "Buyex",
     "title": "Buyex",
     "descr": "International crypto exchanger",
@@ -45,7 +44,9 @@
     "workLinkText": "www.buyex.exchange"
   },
   {
-    "img": "../img/logo.png",
+    "id": 5,
+    "logo": "../img/logo.png",
+    "mainImage": "",
     "alt": "Vera ID",
     "title": "Vera ID",
     "descr": "Website layout of blockchain platform designed to digital identify individuals or companies",
@@ -54,7 +55,9 @@
     "workLinkText": "www.myvera.id"
   },
   {
-    "img": "../img/logo.png",
+    "id": 6,
+    "logo": "../img/logo.png",
+    "mainImage": "",
     "alt": "Welli",
     "title": "Welli",
     "descr": "User-centered design for the website layout of an unique fitness platform with real-time diet and workout tracking",
@@ -63,7 +66,9 @@
     "workLinkText": "www.welli.app"
   },
   {
-    "img": "../img/logo.png",
+    "id": 7,
+    "logo": "../img/logo.png",
+    "mainImage": "",
     "alt": "Filmsclub",
     "title": "Filmsclub",
     "descr": "Web and mobile design for a streaming service that offers a wide variety of TV shows, movies and more on thousands of internet-connected devices",
@@ -72,7 +77,9 @@
     "workLinkText": "www.filmsclub.tv"
   },
   {
-    "img": "../img/logo.png",
+    "id": 8,
+    "logo": "../img/logo.png",
+    "mainImage": "",
     "alt": "Riolis",
     "title": "Riolis",
     "descr": "Website redesign for the biggest online store of needlework products that has been operating for about 15 years",
@@ -81,11 +88,134 @@
     "workLinkText": ""
   },
   {
-    "img": "../img/logo.png",
+    "id": 9,
+    "logo": "../img/logo.png",
+    "mainImage": "",
     "alt": "Anonimous",
     "title": "Anonimous",
     "descr": "A complete graphic web design and responsive solution for a multi currency crypto wallet Anonimous.",
     "workType": "Web / Identity",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "id": 10,
+    "logo": "",
+    "mainImage": "",
+    "alt": "Pay Gear",
+    "title": "Pay Gear",
+    "descr": "We enhanced web and mobile app in terms of design and functionality for money transfer services PayGear.",
+    "workType": "WEB",
+    "workLink": "https://paygear.io",
+    "workLinkText": "www.paygear.io"
+  },
+  {
+    "id": 11,
+    "logo": "../img/logo.png",
+    "mainImage": "",
+    "alt": "Gratz Bonus",
+    "title": "Gratz Bonus",
+    "descr": "We performed necessary updates to create user-friendly design for the holders of Gratz Bonus loyalty cards who will receive cashback, bonuses and in-game gifts.",
+    "workType": "WEB",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "id": 12,
+    "logo": "",
+    "mainImage": "",
+    "alt": "Teamkraft",
+    "title": "Teamkraft",
+    "descr": "Web and  mobile design for social network where recreational athletes team up & get rewarded to play the sports.",
+    "workType": "iOS",
+    "workLink": "https://www.teamkraft.net/",
+    "workLinkText": "www.teamkraft.net"
+  },
+  {
+    "id": 13,
+    "logo": "",
+    "mainImage": "",
+    "alt": "Vogue Design",
+    "title": "Vogue Design",
+    "descr": "Conceptual redesign of an architectural bureau that has been working around the world more than 7 years.",
+    "workType": "Web / Identity",
+    "workLink": "http://vogue-design.ru/",
+    "workLinkText": "www.vogue-design.ru"
+  },
+  {
+    "id": 14,
+    "logo": "",
+    "mainImage": "",
+    "alt": "SREDA",
+    "title": "SREDA",
+    "descr": "We created complete UI and UX web design for a new safety electronic document management system with its own messenger.",
+    "workType": "WEB",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "id": 15,
+    "logo": "",
+    "mainImage": "",
+    "alt": "Workout Level",
+    "title": "Workout Level",
+    "descr": "User-friendly web and mobile design for a sports project that unites athletes from all over the world.",
+    "workType": "WEB",
+    "workLink": "https://www.workoutlevel.com/",
+    "workLinkText": "www.workoutlevel.com"
+  },
+  {
+    "id": 16,
+    "logo": "",
+    "mainImage": "",
+    "alt": "Sherwood",
+    "title": "Sherwood",
+    "descr": "We improved native mobile app and website for a new-generation ecosystem integrating 4 advanced services designed for a successful digital transaction's management.",
+    "workType": "WEB",
+    "workLink": "https://sherwood.global/",
+    "workLinkText": "www.sherwood.global"
+  },
+  {
+    "id": 17,
+    "logo": "",
+    "mainImage": "",
+    "alt": "Победа! 70 лет!",
+    "title": "Победа! 70 лет!",
+    "descr": "Creativeness blended with stringent procedures for designing public important website dedicated to victory in the World War II.",
+    "workType": "iOS / Identity",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "id": 18,
+    "logo": "",
+    "mainImage": "",
+    "alt": "Pay Planet",
+    "title": "Pay Planet",
+    "descr": "We worked with Pay Planet boutique of online payments for any business segments to improve their landing page.",
+    "workType": "WEB / Concept",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "id": 19,
+    "logo": "",
+    "mainImage": "",
+    "alt": "АО Глонасс",
+    "title": "АО Глонасс",
+    "descr": "Hoyd was given the task to redesign Glonass’s app and connect million of drivers with developers and appliers by acting as a hub between them.",
+    "workType": "WEB / Concept",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "id": 20,
+    "logo": "",
+    "mainImage": "",
+    "alt": "Cryptica Bank",
+    "title": "Cryptica Bank",
+    "descr": "We improved the web and mobile design and as a result, it helped attracted new users for cryptocurrency processing company.",
+    "workType": "WEB",
     "workLink": "",
     "workLinkText": ""
   }
