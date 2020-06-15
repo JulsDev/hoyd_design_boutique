@@ -1,7 +1,8 @@
 import React from 'react';
+
 import Header from '../Header';
 import Footer from '../Footer';
-import MainContent from '../MainContent';
+import Content from '../Content';
 
 
 export default function App() {
@@ -9,7 +10,7 @@ export default function App() {
   return (
     <div className="wrapper">
       <Header />
-      <MainContent />
+      <Content />
       <Footer />
     </div>
   )
