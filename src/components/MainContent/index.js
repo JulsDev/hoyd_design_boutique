@@ -3,6 +3,8 @@ import Hero from './Hero';
 import About from './About';
 import Competence from './Competence';
 import FormContacts from '../FormContacts';
+import WorksList from './WorksList';
+import Partners from './Partners';
 
 export default function MainContent() {
 
@@ -11,6 +13,8 @@ export default function MainContent() {
       <Hero />
       <About />
       <Competence />
+      <WorksList />
+      <Partners />
       <FormContacts />
     </div>
   )
