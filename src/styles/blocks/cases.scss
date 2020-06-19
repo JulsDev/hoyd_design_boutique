@@ -46,6 +46,7 @@
 
 .case-block__list {
   max-width: 85%;
+  width: 100%;
   @include phones {
     max-width: 95%;
   }

@@ -2,7 +2,7 @@ const path = require('path')
 
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin} = require('clean-webpack-plugin')
-const CopyWebpackPlugin = require('copy-webpack-plugin')
+// const CopyWebpackPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
@@ -23,10 +23,14 @@ const plugins = () => {
         collapseWhitespace: isProd      // оптимизация html файла
       }
     }),
+    // new CopyWebpackPlugin({
+    //   patterns: [
+    //     { from: './src/assets/img', to: 'assets/img' }
+    //   ],
+    // }),
     new MiniCssExtractPlugin({
       filename: '[name].[hash].css'
-    })
-    // new CopyWebpackPlugin({})
+    })    
   ]
 
   if(isProd) {
@@ -56,8 +60,6 @@ module.exports = {
     }
   },
   
-  plugins: plugins(),
-  
   module: {
     rules: [
       {
@@ -72,7 +74,12 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|gif)$/,         // если файл соотв. данному расширению, то используй use
-        use: ['file-loader']                  // webpack идет справа налево
+        use: [{
+          loader:'file-loader',               // webpack идет справа налево
+          query: {
+            name: 'img/[name].[ext]'
+          }
+        }],
       },
       {
         test: /\.(ttf|woff|woff2|eot)$/,      // если файл соотв. данному расширению, то используй use
@@ -85,6 +92,8 @@ module.exports = {
       }
     ]
   },
+
+  plugins: plugins(),
 
   devServer: {                        
     contentBase: path.resolve(__dirname, 'build'),    // автоматом обновляет страницы, если что-то поменялось

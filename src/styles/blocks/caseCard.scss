@@ -23,7 +23,7 @@
 .case__logo_link {
   width: 100%;
   height: 100%;
-  max-width: 90px;
+  max-width: 200px;
 
   @include phones {
     max-width: 50px;
@@ -56,7 +56,6 @@
   font-size: 18px;
   font-weight: 200;
   opacity: 0.5;
-  margin-bottom: 35px;
 
   @include phones {
     font-size: 14px;
@@ -74,14 +73,20 @@
   align-items: center;
   width: 100%;
   max-width: 650px;
-  height: 450px;
-  border-radius: 10px;
-  border: dotted 1px $text;
+  height: 650px;
+  // border-radius: 10px;
+  // border: dotted 1px $text;
   margin-bottom: 40px;
 
   @include phones {
     height: 250px;
   }
+}
+
+.case__photo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .case__link {
