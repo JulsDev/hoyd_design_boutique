@@ -53,6 +53,7 @@
 }
 .button__case {
   max-width: 415px;
+
   @include phones {
     max-width: 85%;
   }

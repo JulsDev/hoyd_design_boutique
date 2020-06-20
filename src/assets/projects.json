@@ -44,7 +44,7 @@
     "workLinkText": "www.buyex.exchange"
   },
   {
-    "id": 6,
+    "id": 5,
     "logo": "welli-logo.png",
     "mainImage": "welli.png",
     "alt": "Welli",
@@ -55,7 +55,7 @@
     "workLinkText": "www.welli.app"
   },
   {
-    "id": 7,
+    "id": 6,
     "logo": "filmclub-logo.png",
     "mainImage": "filmsclub.png",
     "alt": "Filmsclub",
@@ -66,7 +66,7 @@
     "workLinkText": "www.filmsclub.tv"
   },
   {
-    "id": 8,
+    "id": 7,
     "logo": "riolis-logo.png",
     "mainImage": "riolis.png",
     "alt": "Riolis",
@@ -77,7 +77,7 @@
     "workLinkText": ""
   },
   {
-    "id": 9,
+    "id": 8,
     "logo": "anonimus-logo.png",
     "mainImage": "anonimus.png",
     "alt": "Anonimous",
@@ -88,7 +88,7 @@
     "workLinkText": ""
   },
   {
-    "id": 10,
+    "id": 9,
     "logo": "paygear-logo.png",
     "mainImage": "pay-gear.png",
     "alt": "Pay Gear",
@@ -99,7 +99,7 @@
     "workLinkText": "www.paygear.io"
   },
   {
-    "id": 11,
+    "id": 10,
     "logo": "gratzbonus-logo.png",
     "mainImage": "gratz-bonus.png",
     "alt": "Gratz Bonus",
@@ -110,9 +110,9 @@
     "workLinkText": ""
   },
   {
-    "id": 12,
-    "logo": "cashwagon-logo.png",
-    "mainImage": "cashwagon.png",
+    "id": 11,
+    "logo": "teamkraft-logo.png",
+    "mainImage": "teamkraft.png",
     "alt": "Teamkraft",
     "title": "Teamkraft",
     "descr": "Web and  mobile design for social network where recreational athletes team up & get rewarded to play the sports.",
@@ -121,9 +121,9 @@
     "workLinkText": "www.teamkraft.net"
   },
   {
-    "id": 13,
-    "logo": "cashwagon-logo.png",
-    "mainImage": "cashwagon.png",
+    "id": 12,
+    "logo": "voguedesign-logo.png",
+    "mainImage": "voguedesign.png",
     "alt": "Vogue Design",
     "title": "Vogue Design",
     "descr": "Conceptual redesign of an architectural bureau that has been working around the world more than 7 years.",
@@ -132,9 +132,9 @@
     "workLinkText": "www.vogue-design.ru"
   },
   {
-    "id": 14,
-    "logo": "cashwagon-logo.png",
-    "mainImage": "cashwagon.png",
+    "id": 13,
+    "logo": "sreda-logo.png",
+    "mainImage": "sreda.png",
     "alt": "SREDA",
     "title": "SREDA",
     "descr": "We created complete UI and UX web design for a new safety electronic document management system with its own messenger.",
@@ -143,9 +143,9 @@
     "workLinkText": ""
   },
   {
-    "id": 15,
-    "logo": "cashwagon-logo.png",
-    "mainImage": "cashwagon.png",
+    "id": 14,
+    "logo": "wrkout-level-logo.png",
+    "mainImage": "wrkout-level.png",
     "alt": "Workout Level",
     "title": "Workout Level",
     "descr": "User-friendly web and mobile design for a sports project that unites athletes from all over the world.",
@@ -154,9 +154,9 @@
     "workLinkText": "www.workoutlevel.com"
   },
   {
-    "id": 16,
-    "logo": "cashwagon-logo.png",
-    "mainImage": "cashwagon.png",
+    "id": 15,
+    "logo": "sherwood-logo.png",
+    "mainImage": "sherwood.png",
     "alt": "Sherwood",
     "title": "Sherwood",
     "descr": "We improved native mobile app and website for a new-generation ecosystem integrating 4 advanced services designed for a successful digital transaction's management.",
@@ -165,9 +165,9 @@
     "workLinkText": "www.sherwood.global"
   },
   {
-    "id": 17,
-    "logo": "cashwagon-logo.png",
-    "mainImage": "cashwagon.png",
+    "id": 16,
+    "logo": "win-logo.png",
+    "mainImage": "win.png",
     "alt": "Победа! 70 лет!",
     "title": "Победа! 70 лет!",
     "descr": "Creativeness blended with stringent procedures for designing public important website dedicated to victory in the World War II.",
@@ -176,9 +176,9 @@
     "workLinkText": ""
   },
   {
-    "id": 18,
-    "logo": "cashwagon-logo.png",
-    "mainImage": "cashwagon.png",
+    "id": 17,
+    "logo": "pay-planet-logo.png",
+    "mainImage": "pay-planet.png",
     "alt": "Pay Planet",
     "title": "Pay Planet",
     "descr": "We worked with Pay Planet boutique of online payments for any business segments to improve their landing page.",
@@ -187,9 +187,9 @@
     "workLinkText": ""
   },
   {
-    "id": 19,
-    "logo": "cashwagon-logo.png",
-    "mainImage": "cashwagon.png",
+    "id": 18,
+    "logo": "glonass-logo.png",
+    "mainImage": "glonass.png",
     "alt": "АО Глонасс",
     "title": "АО Глонасс",
     "descr": "Hoyd was given the task to redesign Glonass’s app and connect million of drivers with developers and appliers by acting as a hub between them.",
@@ -198,12 +198,89 @@
     "workLinkText": ""
   },
   {
-    "id": 20,
-    "logo": "cashwagon-logo.png",
-    "mainImage": "cashwagon.png",
+    "id": 19,
+    "logo": "cryptica-logo.png",
+    "mainImage": "cryptica.png",
     "alt": "Cryptica Bank",
     "title": "Cryptica Bank",
     "descr": "We improved the web and mobile design and as a result, it helped attracted new users for cryptocurrency processing company.",
+    "workType": "WEB",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "id": 20,
+    "logo": "best-trainer-logo.png",
+    "mainImage": "best-trainer.png",
+    "alt": "Лучший тренер",
+    "title": "Лучший тренер",
+    "descr": "Uniquely designed website for a fitness industry.",
+    "workType": "WEB",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "id": 21,
+    "logo": "eurazian-bank-logo.png",
+    "mainImage": "eurazian-bank.png",
+    "alt": "Eurasian Bank",
+    "title": "Eurasian Bank",
+    "descr": "We performed necessary updates to create user-friendly design for the largest Kazakhstan commercial financial institution with a 24-year history of development.",
+    "workType": "WEB",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "id": 22,
+    "logo": "skybonds-logo.png",
+    "mainImage": "skybonds.png",
+    "alt": "Sky Bonds",
+    "title": "Sky Bonds",
+    "descr": "The new web design of Skybond puts the focus on the user’s needs first.",
+    "workType": "iOS",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "id": 23,
+    "logo": "abbott-logo.png",
+    "mainImage": "abbott.png",
+    "alt": "Abbott",
+    "title": "Abbott",
+    "descr": "Website and mobile app redesign for the global healthcare company, a leader in nutrition science, research and development which has been  operated since 1903.",
+    "workType": "iOS",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "id": 24,
+    "logo": "centre-logo.png",
+    "mainImage": "centre.png",
+    "alt": "Centre",
+    "title": "Centre",
+    "descr": "Responsive website of financial IT platform connecting investors and loaners which already had received a positive feedback from users.",
+    "workType": "WEB",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "id": 25,
+    "logo": "skillberg-logo.png",
+    "mainImage": "skillberg.png",
+    "alt": "Skillberg",
+    "title": "Skillberg",
+    "descr": "Skillberg reached out Hoyd to get their website revamped for users of their educational portal.",
+    "workType": "WEB",
+    "workLink": "",
+    "workLinkText": ""
+  },
+  {
+    "id": 26,
+    "logo": "fintrans-logo.png",
+    "mainImage": "fintrans.png",
+    "alt": "Fintrans",
+    "title": "Fintrans",
+    "descr": "The project for transport and logistics company required a complete overhaul of their old website which was replaced with a new one.",
     "workType": "WEB",
     "workLink": "",
     "workLinkText": ""
