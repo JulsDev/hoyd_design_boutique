@@ -5,7 +5,7 @@ export default function FormContacts() {
 
   return (
     <section className="section-contacts" id="contact">
-      <h2 className="title title__contacts">contact us</h2>
+      <h2 className="title title__contacts">Let’s work on a project <br /> together!</h2>
       <div className="form-wrapper">
           <form className="form__content" id="data">
               <input 

@@ -19,7 +19,7 @@ export default function Competence() {
                 <Image src={designImgPath} alt={"Interface design"} classes={"competences__pic"}/>
              </div>
              <div className="competences__text">
-                Interface design
+               We create the most invigorating functionalities for the IOS mobile design.
              </div>
           </li>
           <li className="competences__block competences__block--visual">
@@ -27,7 +27,7 @@ export default function Competence() {
                 <Image src={visualImgPath} alt={"Visualization"} classes={"competences__pic"}/>
              </div>
              <div className="competences__text">
-                Visualization and <br /> 3D modeling
+               We use our best practices for developing app design for Android phones and their specific functions.
              </div>
           </li>
           <li className="competences__block competences__block--consulting">
@@ -35,7 +35,7 @@ export default function Competence() {
                 <Image src={consultingImgPath} alt={"consulting"} classes={"competences__pic"}/>
              </div>
              <div className="competences__text">
-                Full cycle of consulting
+               We know all about customized and mobile-friendly websites to ensure higher user satisfaction. 
              </div>
           </li>
         </ul>

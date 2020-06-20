@@ -153,23 +153,24 @@
   letter-spacing: 10px;
   color: $text;
   text-transform: uppercase;
-  margin-bottom: 8px;
+  margin-bottom: 60px;
 
   @include tablets {
     font-size: 28px;
+    margin-bottom: 40px;
   }
   @include phones {
     font-size: 20px;
+    margin-bottom: 20px;
   }
 }
-.work-descr__subtitle {
-  font-family: 'bungee hairline';
+.work-descr__link {
+  font-family: 'AvenirNext_UltraLight';
   font-size: 20px;
   font-weight: 600;
+  text-decoration: underline;
   line-height: 1.4;
-  letter-spacing: 5.56px;
   color: $main;
-  text-transform: uppercase;
   margin-bottom: 32px;
 }
 
@@ -185,6 +186,8 @@
   font-size: 20px;
   letter-spacing: 1px;
   color: $text;
+  margin-bottom: 7%;
+  max-width: 448px;
 
   &--right{
     text-align: end;
@@ -196,4 +199,16 @@
   @include phones {
     font-size: 14px;
   }
+}
+
+.portfolio-link {
+  display: block;
+  text-align: center;
+  font-family: 'bungee hairline';
+  line-height: 1.17;
+  letter-spacing: 6.67px;
+  font-size: 24px;
+  font-weight: 600;
+  color: $main;
+  text-decoration: underline;
 }

@@ -12,10 +12,11 @@ export default function About() {
       <h2 className="title title__about">about us</h2>
       <div className="section-about__card">
         <p className="card__text">
-          <span className="card__text--bold">Hoyd Design Boutique</span>
-          <span> – your expert partner in design.</span>
+          The heart & soul of every business is an outstanding interface design.
         </p>
-        <p className="card__text">We are interested to made perfect design to all our clients.</p>
+        <p className="card__text">
+          Our professional team is here to provide the latest and finest mobile app and web design solutions.
+        </p>
       </div>
     </section>
   )

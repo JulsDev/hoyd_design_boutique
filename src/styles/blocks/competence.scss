@@ -70,19 +70,19 @@
   @include phones {
     max-width: 85%;
     max-height: 40%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     margin-right: 0;
   }
 }
 
 .competences__image {
-  margin-bottom: 50%;
+  margin-bottom: 30%;
   &:last-child{
     margin-bottom: 0;
   }
 
   @include phones {
-    margin-bottom: 4%;
+    margin-bottom: 3%;
   }
 }
 
@@ -105,4 +105,8 @@
   letter-spacing: 1.5px;
   color: $text;
   text-align: center;
+
+  @include phones {
+    font-size: 15px;
+  }
 }

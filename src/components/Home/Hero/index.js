@@ -21,7 +21,7 @@ export default function Hero() {
       </div>
       <div className="section-main__text">
         <p className="section-main__reinvent">
-          REINVENT YOUR MOBILE AND WEB DESIGN
+          WE CREATE SOLUTIONS THAT DRIVE RESULTS
         </p>
       </div>
     </section>

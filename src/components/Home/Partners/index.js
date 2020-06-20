@@ -13,7 +13,7 @@ export default function Partners() {
 
   return (
     <section className="section-clients">
-      <h2 className="title title__clients">our clients</h2>
+      <h2 className="title title__clients">They trust us</h2>
       <div className="clients-image">
         <Image src={partnersInfo.src} alt={partnersInfo.alt} classes={partnersInfo.classes}/>
       </div>
