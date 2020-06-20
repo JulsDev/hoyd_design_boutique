@@ -2,9 +2,8 @@ const path = require('path')
 
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin} = require('clean-webpack-plugin')
-// const CopyWebpackPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
+// const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
 
 const isDev = process.env.NODE_ENV === 'development'
@@ -23,19 +22,14 @@ const plugins = () => {
         collapseWhitespace: isProd      // оптимизация html файла
       }
     }),
-    // new CopyWebpackPlugin({
-    //   patterns: [
-    //     { from: './src/assets/img', to: 'assets/img' }
-    //   ],
-    // }),
     new MiniCssExtractPlugin({
       filename: '[name].[hash].css'
     })    
   ]
 
-  if(isProd) {
-    base.push(new BundleAnalyzerPlugin());
-  }
+  // if(isProd) {
+  //   base.push(new BundleAnalyzerPlugin());
+  // }
 
   return base;
 }
