@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 import Image from '../_base/Image';
 
@@ -20,9 +21,11 @@ export default function ProjectCard({ projectInfo }) {
           <Image src={`img/${projectInfo.mainImage}`} alt={projectInfo.alt} classes="case__photo-image"/>
         </div>
         <a href={projectInfo.workLink} target="_blank" className="case__link">{projectInfo.workLinkText}</a>
-        <button className="button button__case">
-            Apply for design
-        </button>
+          <HashLink smooth to='#contact'>
+            <button className="button button__case">
+                Apply for design
+            </button>
+          </HashLink> 
       </li>
     </ul>
   )

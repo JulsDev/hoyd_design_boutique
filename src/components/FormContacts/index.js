@@ -4,7 +4,7 @@ import React from 'react';
 export default function FormContacts() {
 
   return (
-    <section className="section-contacts">
+    <section className="section-contacts" id="contact">
       <h2 className="title title__contacts">contact us</h2>
       <div className="form-wrapper">
           <form className="form__content" id="data">

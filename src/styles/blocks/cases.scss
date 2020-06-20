@@ -52,9 +52,12 @@
   }
 }
 .button__case {
-  max-width: 415px;
+  width: 415px;
 
   @include phones {
-    max-width: 85%;
+    width: 315px;
+  }
+  @include phones-xs {
+    width: 230px;
   }
 }
