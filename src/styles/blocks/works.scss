@@ -14,7 +14,6 @@
       width: 100%;
       height: 100%;
       max-width: 25px;
-      //background-image: url('../../img/works-line.png');
       background-repeat: no-repeat;
       z-index: 5;
     }
@@ -47,6 +46,10 @@
   max-width: 85%;
   max-height: 370px;
   display: flex;
+
+  &__center {
+    margin-bottom: 40px;
+  }
 
   @include tablets {
     max-width: 85%;
@@ -88,6 +91,33 @@
       margin-left: 0;
       order: 1;
     }
+  }
+}
+
+.section-work__back {
+  position: relative;
+  margin-bottom: 10%;
+}
+
+.section-work__back-img {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+
+  &--hoyd {
+    left: 0;
+    transform: translate(-20%, 90%);
+  }
+  &--design {
+    right: 0;
+    transform: translate(20%, 50%);
+    @include phones {
+      top: 5%;
+    }
+  }
+  @include tablets {
+    width: 70%;
+    left: 15%;
   }
 }
 

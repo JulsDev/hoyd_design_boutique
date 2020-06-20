@@ -4,12 +4,14 @@ import Image from '../../_base/Image';
 import designImgPath from '../../../assets/img/competence/design.png'
 import visualImgPath from '../../../assets/img/competence/visual.png'
 import consultingImgPath from '../../../assets/img/competence/consulting.png'
+import skillsLine from '../../../assets/img/main/skills-line.png';
 
 
 export default function Competence() {
 
   return (
     <section className="section-competence">
+      <Image src={skillsLine} alt="hoyd" className="section-main__img-line" />
       <h2 className="title title__competence">our competence</h2>
       <ul className="competences">
           <li className="competences__block competences__block--design">

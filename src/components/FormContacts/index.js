@@ -15,12 +15,15 @@ export default function FormContacts() {
                   placeholder='E-mail'
                   required
               />
-              <select className="form__input form__input--select" name="user_options" form="data">
-                <option className="option__text">Type of service</option>
-                <option className="option__text" value="1">Option 1</option>
-                <option className="option__text" value="2">Option 2</option>
-                <option className="option__text" value="3">Option 3</option>
-              </select>
+              <div className="select-wrapper">
+                <select className="form__input form__input--select" name="user_options" form="data">  
+                  <option className="option__text">Type of service</option>
+                  <option className="option__text" value="1">Option 1</option>
+                  <option className="option__text" value="2">Option 2</option>
+                  <option className="option__text" value="3">Option 3</option>
+                </select>
+                <div className="triangle-down"></div> 
+              </div>
               <textarea 
                   className="form__input form__textarea"
                   id="message"

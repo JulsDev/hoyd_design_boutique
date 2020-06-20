@@ -1,15 +1,17 @@
 import React from 'react';
 import Image from '../../_base/Image';
 
-import firstImgPath from '../../../assets/img/works/colors.jpg'
-import secondImgPath from '../../../assets/img/works/glass.jpg'
-import thirdImgPath from '../../../assets/img/works/snake.jpg'
+import firstImgPath from '../../../assets/img/works/colors.jpg';
+import secondImgPath from '../../../assets/img/works/glass.jpg';
+import thirdImgPath from '../../../assets/img/works/snake.jpg';
+import backImageHoyd from '../../../assets/img/main/workHoyd.png';
+import backImageDesign from '../../../assets/img/main/workDesign.png';
 
 export default function WorksList() {
 
-  const firstImage = { src: firstImgPath, alt: "", classes: "work-image__pic" };
-  const secondImage = { src: secondImgPath, alt: "", classes: "work-image__pic--center" };
-  const thirdImage = { src: thirdImgPath, alt: "", classes: "work-image__pic" };
+  const firstImage = { src: firstImgPath, alt: "AO Glonass", classes: "work-image__pic" };
+  const secondImage = { src: secondImgPath, alt: "Delta credit", classes: "work-image__pic--center" };
+  const thirdImage = { src: thirdImgPath, alt: "Blackcatcard", classes: "work-image__pic" };
 
   return (
     <div className="section-works-wrapper">
@@ -34,8 +36,11 @@ export default function WorksList() {
           </div>
         </div>
       </section>
+      <div className="section-work__back">
+        <Image src={backImageHoyd} alt="hoyd" className="section-work__back-img section-work__back-img--hoyd" />
+      </div>
       <section className="section-work section-work__left">
-        <div className="work-block">
+        <div className="work-block work-block__center">
           <div className="work-descr work-descr__left">
             <h3 className="work-descr__title">Delta credit</h3>
             <h4 className="work-descr__subtitle"></h4>
@@ -51,6 +56,9 @@ export default function WorksList() {
           </div>
         </div>
       </section>
+      <div className="section-work__back">
+        <Image src={backImageDesign} alt="design" className="section-work__back-img section-work__back-img--design" />
+      </div>
       <section className="section-work section-work__right">
         <div className="work-block">
           <div className="work-image">

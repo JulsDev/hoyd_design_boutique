@@ -72,7 +72,7 @@ button{
 
   &:hover {
     background-color: $buttonHover;
-    transition: 1s;
+    transition: 0.7s;
   }
 }
 
@@ -87,3 +87,6 @@ table{
   box-sizing: border-box;
 }
 
+select {
+  appearance: none;
+}
