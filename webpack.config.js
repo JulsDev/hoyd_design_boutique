@@ -98,6 +98,7 @@ module.exports = {
   devServer: {                        
     contentBase: path.resolve(__dirname, 'build'),    // автоматом обновляет страницы, если что-то поменялось
     port: 4200,                                       // 
-    hot: isDev                                        // Если isDev=true, значит работаем в режиме development 
+    hot: isDev,                                        // Если isDev=true, значит работаем в режиме development 
+    historyApiFallback: true
   }
 }

@@ -4,7 +4,7 @@ import data from '../../assets/projects.json';
 import ProjectCard from '../ProjectCard';
 
 
-const tags = ['financial', 'blockchain', 'government', 'social', 'other...'];
+const tags = ['financial', 'blockchain', 'government', 'social'];
 
 export default function ProjectList() {
 

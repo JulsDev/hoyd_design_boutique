@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Image from '../_base/Image';
 
@@ -20,7 +19,7 @@ export default function ProjectCard({ projectInfo }) {
         <div className="case__photo">
           <Image src={`img/${projectInfo.mainImage}`} alt={projectInfo.alt} classes="case__photo-image"/>
         </div>
-        <Link to="" target="_blank" className="case__link">{projectInfo.workLinkText}</Link>
+        <a href={projectInfo.workLink} target="_blank" className="case__link">{projectInfo.workLinkText}</a>
         <button className="button button__case">
             Apply for design
         </button>
