@@ -111,13 +111,13 @@
   &--design {
     right: 0;
     transform: translate(20%, 50%);
-    @include phones {
-      top: 5%;
-    }
   }
   @include tablets {
     width: 70%;
     left: 15%;
+  }
+  @include phones {
+    top: 5%;
   }
 }
 
@@ -168,7 +168,7 @@
   font-family: 'AvenirNext_UltraLight';
   font-size: 20px;
   font-weight: 600;
-  text-decoration: underline;
+  // text-decoration: underline;
   line-height: 1.4;
   color: $main;
   margin-bottom: 32px;
@@ -211,4 +211,9 @@
   font-weight: 600;
   color: $main;
   text-decoration: underline;
+
+  @include phones {
+    font-size: 20px;
+    margin-top: 30%;
+  }
 }

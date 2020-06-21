@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Image from '../../_base/Image';
 
+import worksLine from '../../../assets/img/main/works-line.png';
 import firstImgPath from '../../../assets/img/works/cashwagon-main.png';
 import secondImgPath from '../../../assets/img/works/clossapp.png';
 import thirdImgPath from '../../../assets/img/works/blackcard.png';
@@ -18,6 +19,7 @@ export default function WorksList() {
   return (
     <div className="section-works-wrapper">
       <section className="section-work section-work__right">
+        <Image src={worksLine} alt="hoyd we love what we do" className="section-about__img-line" />
         <h2 className="title title__works">
           Glimpse of what we have done <br /> for our beloved clients
         </h2>
@@ -67,6 +69,7 @@ export default function WorksList() {
         <Image src={backImageDesign} alt="design" className="section-work__back-img section-work__back-img--design" />
       </div>
       <section className="section-work section-work__right">
+        <Image src={worksLine} alt="hoyd we love what we do" className="section-about__img-line" />
         <div className="work-block">
           <div className="work-image">
               <Image src={thirdImage.src} alt={thirdImage.alt} classes={thirdImage.classes}/>

@@ -5,6 +5,7 @@ import Competence from './Competence';
 import FormContacts from '../FormContacts';
 import WorksList from './WorksList';
 import Partners from './Partners';
+import DevelopCircle from './DevelopCircle';
 
 export default function MainContent() {
 
@@ -12,6 +13,7 @@ export default function MainContent() {
     <div className="container">
       <Hero />
       <About />
+      <DevelopCircle />
       <Competence />
       <WorksList />
       <Partners />
