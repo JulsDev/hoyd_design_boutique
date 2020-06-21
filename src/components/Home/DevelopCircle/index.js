@@ -17,18 +17,20 @@ export default function DevelopCircle() {
     <section className="section-develop">
       <h2 className="title title__develop">Our efficient <br /> development cycle</h2>
       <div className='section-dev__content'>
+        <Image src={devArrow} alt='develop circle hoyd' classes='section-develop__arrow' />  
         {devTable.map((item, index) => {
           return (
             <div key={index} className='dev__content-row'>
               <p className='dev__content-text dev__content-text--left'>{item.text1}</p>
               <div className='dev__content-circle-wrap'>
-                <div className='dev__content-circle'>{item.number}</div>
+                <div className='dev__content-circle'>
+                  <span className="dev__content-number">{item.number}</span>
+                </div>
               </div>
               <p className='dev__content-text dev__content-text--right'>{item.text2}</p>
             </div>
           ) 
         })}
-        <Image src={devArrow} alt='develop circle hoyd' classes='section-develop__arrow' />  
       </div>
     </section>
   )

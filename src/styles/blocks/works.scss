@@ -4,47 +4,20 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-
-  &__right {
-    &:after {
-      position: absolute;
-      content: '';
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      max-width: 25px;
-      background-repeat: no-repeat;
-      z-index: 5;
-    }
-  }
-
-  &__left {
-    &:after {
-      position: absolute;
-      content: '';
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      max-width: 25px;
-      //background-image: url('../../img/works-line.png');
-      background-repeat: no-repeat;
-      z-index: 5;
-    }
-  }
-
 }
 
 .title__works {
   margin-bottom: 13%;
+  @include phones {
+    padding: 0 5%;
+  }
 }
 
 .work-block {
   width: 100%;
   height: 100%;
   max-width: 85%;
-  max-height: 370px;
+  max-height: 450px;
   display: flex;
 
   &__center {
@@ -61,7 +34,7 @@
 }
 
 .work-image {
-  width: 45%;
+  width: 55%;
 
   @include tablets {
     margin-right: 20px;
@@ -80,7 +53,7 @@
   &--center {
     width: 100%;
     height: 100%;
-    max-width: 320px;
+    max-width: 420px;
     margin-right: 0;
     margin-left: 80px;
 
@@ -168,7 +141,6 @@
   font-family: 'AvenirNext_UltraLight';
   font-size: 20px;
   font-weight: 600;
-  // text-decoration: underline;
   line-height: 1.4;
   color: $main;
   margin-bottom: 32px;
@@ -214,6 +186,6 @@
 
   @include phones {
     font-size: 20px;
-    margin-top: 30%;
+    margin: 30% 10% 0;
   }
 }

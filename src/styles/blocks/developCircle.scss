@@ -1,5 +1,8 @@
 .title__develop {
   margin-bottom: 8%;
+  @include phones {
+    padding: 10%;
+  }
 }
 
 .section-dev__content {
@@ -9,6 +12,7 @@
   align-items: center;
   width: 100%;
   // max-width: 650px;
+  position: relative;
 }
 
 .dev__content-row {
@@ -22,6 +26,10 @@
   &:last-child{
     margin-bottom: 0;
   }
+
+  @include tablets {
+    margin-bottom: 32px;
+  }
 }
 
 .dev__content-text {
@@ -29,7 +37,7 @@
   font-size: 20px;
   font-weight: 200;
   letter-spacing: 1px;
-  width: 35%;
+  width: 33%;
 
   &--left {
     margin-right: 45px;
@@ -46,6 +54,7 @@
 
 .dev__content-circle-wrap {
   display: flex;
+  justify-content: center;
   width: 15%;
 }
 
@@ -58,17 +67,31 @@
   border-radius: 100%;
   box-shadow: 20px 23px 42px 0 rgba(0, 0, 0, 0.07), -10px -10px 44px 0 #ffffff;
   background-color: #ffffff;
+}
+
+.dev__content-number {
   color: $main;
   font-size: 32px;
   letter-spacing: 6px;
   font-family: 'bungee hairline';
   font-weight: 800;
+  margin-left: 12%;
 }
 
 .section-develop__arrow {
-  max-height: 85px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-height: 485px;
+  position: absolute;
   margin-right: 3%;
+  margin-top: 6%;
+  z-index: -1;
+
+  @include tablets {
+    margin-top: 8%;
+    max-height: 365px;
+  }
+  @include phones {
+    margin-right: 0;
+    max-height: 385px;
+    margin-top: 15%;
+  }
 }

@@ -8,9 +8,6 @@ export default function Menu() {
       <nav className="menu">
         <ul className="nav-list">
           <li className="nav-item">
-            <Link to='/'>Home</Link>
-          </li>
-          <li className="nav-item">
             <Link to='/portfolio'>Portfolio</Link>
           </li>
           <li className="nav-item">
