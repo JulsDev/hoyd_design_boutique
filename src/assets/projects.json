@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "logo": "cashwagon-logo.png",
+    "logo": "cashwagon-partner.png",
     "mainImage": "cashwagon.png",
     "alt": "Cashwagon",
     "title": "Cashwagon",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "logo": "filmclub-logo.png",
+    "logo": "filmsclub-partners.png",
     "mainImage": "filmsclub.png",
     "alt": "Filmsclub",
     "title": "Filmsclub",
@@ -188,7 +188,7 @@
   },
   {
     "id": 18,
-    "logo": "glonass-logo.png",
+    "logo": "glonas-partner.png",
     "mainImage": "glonass.png",
     "alt": "АО Глонасс",
     "title": "АО Глонасс",
