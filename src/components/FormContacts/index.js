@@ -10,12 +10,19 @@ export default function FormContacts() {
           <form className="form__content" id="data">
               <input 
                   className="form__input form__block-input"
+                  type="text"
+                  name='user_name'
+                  placeholder='Name'
+                  required
+              />
+              <input 
+                  className="form__input form__block-input"
                   type="email"
                   name='user_email'
                   placeholder='E-mail'
                   required
               />
-              <div className="select-wrapper">
+              {/* <div className="select-wrapper">
                 <select className="form__input form__input--select" name="user_options" form="data">  
                   <option className="option__text">Type of service</option>
                   <option className="option__text" value="1">Option 1</option>
@@ -23,7 +30,7 @@ export default function FormContacts() {
                   <option className="option__text" value="3">Option 3</option>
                 </select>
                 <div className="triangle-down"></div> 
-              </div>
+              </div> */}
               <textarea 
                   className="form__input form__textarea"
                   id="message"
