@@ -119,9 +119,10 @@
 }
 
 .work-descr__title {
-  font-family: 'bungee hairline';
-  font-weight: 700;
-  font-size: 36px;
+  // font-family: 'bungee hairline';
+  font-family: 'AvenirNext';
+  font-size: 24px;
+  font-weight: 600;
   line-height: 0.78;
   letter-spacing: 10px;
   color: $text;
@@ -176,7 +177,8 @@
 .portfolio-link {
   display: block;
   text-align: center;
-  font-family: 'bungee hairline';
+  // font-family: 'bungee hairline';
+  font-family: 'AvenirNext';
   line-height: 1.17;
   letter-spacing: 6.67px;
   font-size: 24px;
