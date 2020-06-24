@@ -3,6 +3,7 @@ const path = require('path')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin} = require('clean-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const CopyWebpackPlugin =  require('copy-webpack-plugin')
 // const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
 
@@ -21,6 +22,12 @@ const plugins = () => {
       minify: {
         collapseWhitespace: isProd      // оптимизация html файла
       }
+    }),
+    new CopyWebpackPlugin ({
+      patterns: [
+        { from: '../public/favicon.ico', to: './' },
+        { from: '../public/manifest.json', to: './' },
+      ]
     }),
     new MiniCssExtractPlugin({
       filename: '[name].[hash].css'
