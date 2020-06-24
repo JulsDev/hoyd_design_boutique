@@ -37,7 +37,8 @@
   width: 55%;
 
   @include tablets {
-    margin-right: 20px;
+    width: 50%;
+    max-height: 80%;
   }
   @include phones {
     width: 80%;
@@ -58,12 +59,16 @@
     margin-left: 80px;
 
     @include tablets {
-      margin-left: 10px;
+      margin-left: 15px;
     }
     @include phones {
       margin-left: 0;
       order: 1;
     }
+  }
+
+  @include tablets {
+    margin-right: 30px;
   }
 }
 
@@ -96,10 +101,10 @@
 
 // descr block
 .work-descr {
-  width: 55%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  width: 55%;
 
   &__left{
     align-items: flex-start;
@@ -119,7 +124,6 @@
 }
 
 .work-descr__title {
-  // font-family: 'bungee hairline';
   font-family: 'AvenirNext';
   font-size: 24px;
   font-weight: 600;
@@ -130,11 +134,11 @@
   margin-bottom: 60px;
 
   @include tablets {
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 40px;
   }
   @include phones {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
   }
 }
@@ -149,10 +153,14 @@
 
 .work-descr__tags {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 15%;
 }
 .work__tag--space {
   margin-right: 20px;
+  @include tablets {
+    margin-right: 10px;
+  }
 }
 .work-descr__text {
   font-family: 'AvenirNext_UltraLight';

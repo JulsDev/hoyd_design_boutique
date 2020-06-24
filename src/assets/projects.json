@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "logo": "cashwagon-partner.png",
     "mainImage": "cashwagon.png",
     "alt": "Cashwagon",
@@ -9,6 +9,17 @@
     "workType": "iOS / Android / Web",
     "workLink": "https://cashwagon.com",
     "workLinkText": "www.cashwagon.com"
+  },
+  {
+    "id": 1,
+    "logo": "clos-logo.png",
+    "mainImage": "clos.png",
+    "alt": "CLOS",
+    "title": "CLOS",
+    "descr": "Conduct remote shoots and take photos and videos on your iPhone with other people as if they are in the same room with you.",
+    "workType": "iOS",
+    "workLink": "https://closapp.space",
+    "workLinkText": "www.closapp.space"
   },
   {
     "id": 2,
