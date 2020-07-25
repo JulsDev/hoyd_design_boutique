@@ -8,7 +8,8 @@
     "descr": "Web and mobile design for an international digital platform providing access to a broad range of consumer financial product",
     "workType": "iOS / Android / Web",
     "workLink": "https://cashwagon.com",
-    "workLinkText": "www.cashwagon.com"
+    "workLinkText": "www.cashwagon.com",
+    "tag": "financial"
   },
   {
     "id": 1,
@@ -19,7 +20,8 @@
     "descr": "Conduct remote shoots and take photos and videos on your iPhone with other people as if they are in the same room with you.",
     "workType": "iOS",
     "workLink": "https://closapp.space",
-    "workLinkText": "www.closapp.space"
+    "workLinkText": "www.closapp.space",
+    "tag": "financial"
   },
   {
     "id": 2,
@@ -30,7 +32,8 @@
     "descr": "Large European bank partnered with Hoyd to improve the new features of their native mobile app and website",
     "workType": "iOS / Android / Web",
     "workLink": "https://blackcatcard.com",
-    "workLinkText": "www.blackcatcard.com"
+    "workLinkText": "www.blackcatcard.com",
+    "tag": "financial"
   },
   {
     "id": 3,
@@ -41,7 +44,8 @@
     "descr": "Website layout of blockchain platform designed to digital identify individuals or companies",
     "workType": "iOS / Android / Web",
     "workLink": "https://myvera.id",
-    "workLinkText": "www.myvera.id"
+    "workLinkText": "www.myvera.id",
+    "tag": "blockchain"
   },
   {
     "id": 4,
@@ -52,7 +56,8 @@
     "descr": "International crypto exchanger",
     "workType": "Web / Identity",
     "workLink": "https://buyex.exchange",
-    "workLinkText": "www.buyex.exchange"
+    "workLinkText": "www.buyex.exchange",
+    "tag": "blockchain"
   },
   {
     "id": 5,
@@ -63,7 +68,8 @@
     "descr": "User-centered design for the website layout of an unique fitness platform with real-time diet and workout tracking",
     "workType": "WEB",
     "workLink": "https://welli.app/",
-    "workLinkText": "www.welli.app"
+    "workLinkText": "www.welli.app",
+    "tag": "social"
   },
   {
     "id": 6,
@@ -74,7 +80,8 @@
     "descr": "Web and mobile design for a streaming service that offers a wide variety of TV shows, movies and more on thousands of internet-connected devices",
     "workType": "WEB",
     "workLink": "https://filmsclub.tv/",
-    "workLinkText": "www.filmsclub.tv"
+    "workLinkText": "www.filmsclub.tv",
+    "tag": "social"
   },
   {
     "id": 7,
@@ -85,7 +92,8 @@
     "descr": "Website redesign for the biggest online store of needlework products that has been operating for about 15 years",
     "workType": "WEB / Concept",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "social"
   },
   {
     "id": 8,
@@ -96,7 +104,8 @@
     "descr": "A complete graphic web design and responsive solution for a multi currency crypto wallet Anonimous.",
     "workType": "Web / Identity",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "blockchain"
   },
   {
     "id": 9,
@@ -107,7 +116,8 @@
     "descr": "We enhanced web and mobile app in terms of design and functionality for money transfer services PayGear.",
     "workType": "WEB",
     "workLink": "https://paygear.io",
-    "workLinkText": "www.paygear.io"
+    "workLinkText": "www.paygear.io",
+    "tag": "financial"
   },
   {
     "id": 10,
@@ -118,7 +128,8 @@
     "descr": "We performed necessary updates to create user-friendly design for the holders of Gratz Bonus loyalty cards who will receive cashback, bonuses and in-game gifts.",
     "workType": "WEB",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "financial"
   },
   {
     "id": 11,
@@ -129,7 +140,8 @@
     "descr": "Web and  mobile design for social network where recreational athletes team up & get rewarded to play the sports.",
     "workType": "iOS",
     "workLink": "https://www.teamkraft.net/",
-    "workLinkText": "www.teamkraft.net"
+    "workLinkText": "www.teamkraft.net",
+    "tag": "social"
   },
   {
     "id": 12,
@@ -140,7 +152,8 @@
     "descr": "Conceptual redesign of an architectural bureau that has been working around the world more than 7 years.",
     "workType": "Web / Identity",
     "workLink": "http://vogue-design.ru/",
-    "workLinkText": "www.vogue-design.ru"
+    "workLinkText": "www.vogue-design.ru",
+    "tag": "social"
   },
   {
     "id": 13,
@@ -151,7 +164,8 @@
     "descr": "We created complete UI and UX web design for a new safety electronic document management system with its own messenger.",
     "workType": "WEB",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "???"
   },
   {
     "id": 14,
@@ -162,7 +176,8 @@
     "descr": "User-friendly web and mobile design for a sports project that unites athletes from all over the world.",
     "workType": "WEB",
     "workLink": "https://www.workoutlevel.com/",
-    "workLinkText": "www.workoutlevel.com"
+    "workLinkText": "www.workoutlevel.com",
+    "tag": "social"
   },
   {
     "id": 15,
@@ -173,7 +188,8 @@
     "descr": "We improved native mobile app and website for a new-generation ecosystem integrating 4 advanced services designed for a successful digital transaction's management.",
     "workType": "WEB",
     "workLink": "https://sherwood.global/",
-    "workLinkText": "www.sherwood.global"
+    "workLinkText": "www.sherwood.global",
+    "tag": "financial"
   },
   {
     "id": 16,
@@ -184,7 +200,8 @@
     "descr": "Creativeness blended with stringent procedures for designing public important website dedicated to victory in the World War II.",
     "workType": "iOS / Identity",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "government"
   },
   {
     "id": 17,
@@ -195,7 +212,8 @@
     "descr": "We worked with Pay Planet boutique of online payments for any business segments to improve their landing page.",
     "workType": "WEB / Concept",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "financial"
   },
   {
     "id": 18,
@@ -206,7 +224,8 @@
     "descr": "Hoyd was given the task to redesign Glonass’s app and connect million of drivers with developers and appliers by acting as a hub between them.",
     "workType": "WEB / Concept",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "government"
   },
   {
     "id": 19,
@@ -217,7 +236,8 @@
     "descr": "We improved the web and mobile design and as a result, it helped attracted new users for cryptocurrency processing company.",
     "workType": "WEB",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "blockchain"
   },
   {
     "id": 20,
@@ -228,7 +248,8 @@
     "descr": "Uniquely designed website for a fitness industry.",
     "workType": "WEB",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "social"
   },
   {
     "id": 21,
@@ -239,7 +260,8 @@
     "descr": "We performed necessary updates to create user-friendly design for the largest Kazakhstan commercial financial institution with a 24-year history of development.",
     "workType": "WEB",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "financial"
   },
   {
     "id": 22,
@@ -250,7 +272,8 @@
     "descr": "The new web design of Skybond puts the focus on the user’s needs first.",
     "workType": "iOS",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "financial"
   },
   {
     "id": 23,
@@ -261,7 +284,8 @@
     "descr": "Website and mobile app redesign for the global healthcare company, a leader in nutrition science, research and development which has been  operated since 1903.",
     "workType": "iOS",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "social"
   },
   {
     "id": 24,
@@ -272,7 +296,8 @@
     "descr": "Responsive website of financial IT platform connecting investors and loaners which already had received a positive feedback from users.",
     "workType": "WEB",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "financial"
   },
   {
     "id": 25,
@@ -283,7 +308,8 @@
     "descr": "Skillberg reached out Hoyd to get their website revamped for users of their educational portal.",
     "workType": "WEB",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "social"
   },
   {
     "id": 26,
@@ -294,6 +320,7 @@
     "descr": "The project for transport and logistics company required a complete overhaul of their old website which was replaced with a new one.",
     "workType": "WEB",
     "workLink": "",
-    "workLinkText": ""
+    "workLinkText": "",
+    "tag": "financial"
   }
 ]
