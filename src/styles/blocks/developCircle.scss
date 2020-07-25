@@ -54,8 +54,15 @@
 
 .dev__content-circle-wrap {
   display: flex;
-  justify-content: center;
   width: 15%;
+
+  @include tablets {
+    padding-left: 1%;
+  }
+
+  @include phones {
+    justify-content: center;
+  }
 }
 
 .dev__content-circle {
@@ -67,6 +74,11 @@
   border-radius: 100%;
   box-shadow: 20px 23px 42px 0 rgba(0, 0, 0, 0.07), -10px -10px 44px 0 #ffffff;
   background-color: #ffffff;
+
+  @include phones-xs {
+    width: 55px;
+    height: 55px;
+  }
 }
 
 .dev__content-number {
@@ -83,7 +95,7 @@
 }
 
 .section-develop__arrow {
-  max-height: 485px;
+  max-height: 429px;
   position: absolute;
   margin-right: 3%;
   margin-top: 6%;
@@ -97,5 +109,8 @@
     margin-right: 0;
     max-height: 385px;
     margin-top: 15%;
+  }
+  @include phones-xs {
+    margin-top: 18%;
   }
 }
