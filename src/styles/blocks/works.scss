@@ -83,8 +83,11 @@
   bottom: 0;
 
   &--hoyd {
-    left: 0;
+    left: -30px;
     transform: translate(-20%, 90%);
+    @include desktop {
+      left: 0;
+    }
   }
   &--design {
     right: 0;
