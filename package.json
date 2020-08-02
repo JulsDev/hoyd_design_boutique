@@ -1,5 +1,5 @@
 {
-  "name": "webpack-course",
+  "name": "hoyd",
   "version": "1.0.0",
   "description": "webpack course",
   "author": "Aseeva Julia",
@@ -40,9 +40,12 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "autoprefixer": "^9.8.5",
     "core-js": "^3.6.5",
     "cross-env": "^7.0.2",
+    "cssnano": "^4.1.10",
     "normalize.css": "^8.0.1",
+    "postcss-loader": "^3.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-hook-form": "^6.1.0",

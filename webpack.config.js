@@ -4,6 +4,8 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin} = require('clean-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CopyWebpackPlugin =  require('copy-webpack-plugin')
+const autoprefixer = require('autoprefixer')
+const cssnano = require('cssnano')
 // const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
 
@@ -69,6 +71,20 @@ module.exports = {
           'style-loader',
           MiniCssExtractPlugin.loader,
           'css-loader',
+          {
+            loader: require.resolve('postcss-loader'),
+            options: {
+              ident: 'postcss',
+              plugins: () => [
+                autoprefixer({
+                  flexbox: 'no-2009'
+                }),
+                cssnano({
+                  preset: 'default'
+                })
+              ]
+            }
+          },
           'sass-loader'
         ],
         exclude: /node_modules/,              // webpack идет справа налево (в данной записи снизу-наверх)  

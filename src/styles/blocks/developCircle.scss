@@ -54,7 +54,7 @@
 
 .dev__content-circle-wrap {
   display: flex;
-  width: 15%;
+  // width: 15%;
 
   @include tablets {
     padding-left: 1%;
@@ -97,7 +97,7 @@
 .section-develop__arrow {
   max-height: 429px;
   position: absolute;
-  margin-right: 3%;
+  // margin-right: 3%;
   margin-top: 6%;
   z-index: -1;
 
