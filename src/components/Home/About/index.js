@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Image from '../../_base/Image';
-import aboutLine from '../../../assets/img/main/about-line.png';
+import Image from 'components/_base/Image';
+import aboutLine from 'assets/img/main/about-line.png';
 
 
 export default function About() {

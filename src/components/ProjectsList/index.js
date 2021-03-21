@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-
-import data from '../../assets/projects.json';
-import ProjectCard from '../ProjectCard';
 import { HashLink } from 'react-router-hash-link';
+
+import data from 'assets/projects.json';
+import ProjectCard from 'components/ProjectCard';
 
 const tags = ['all', 'financial', 'blockchain', 'government', 'social'];
 

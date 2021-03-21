@@ -1,12 +1,12 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 
-import Image from '../_base/Image';
+import Image from 'components/_base/Image';
 
 export default function ProjectCard({ projectInfo }) {
 
-  require(`../../assets/img/projects/${projectInfo.logo}`);
-  require(`../../assets/img/projects/${projectInfo.mainImage}`);
+  require(`assets/img/projects/${projectInfo.logo}`);
+  require(`assets/img/projects/${projectInfo.mainImage}`);
 
   return (
     <ul className="case-block__list">

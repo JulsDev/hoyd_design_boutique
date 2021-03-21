@@ -1,10 +1,10 @@
 import React from 'react';
-import FormContacts from '../FormContacts';
-import ProjectList from '../ProjectsList';
 import { HashLink } from 'react-router-hash-link';
 
-import Image from '../_base/Image';
-import arrowPath from '../../assets/img/projects/arrow-up.png'
+import FormContacts from 'components/FormContacts';
+import ProjectList from 'components/ProjectsList';
+import Image from 'components/_base/Image';
+import arrowPath from 'assets/img/projects/arrow-up.png'
 
 
 export default function Portfolio() {
