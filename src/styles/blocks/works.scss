@@ -75,6 +75,7 @@
 .section-work__back {
   position: relative;
   margin-bottom: 10%;
+  display: flex;
 }
 
 .section-work__back-img {
@@ -83,10 +84,10 @@
   bottom: 0;
 
   &--hoyd {
-    left: -30px;
+    left: -3%;
     transform: translate(-20%, 90%);
     @include desktop {
-      left: 0;
+      left: 12%;
     }
   }
   &--design {

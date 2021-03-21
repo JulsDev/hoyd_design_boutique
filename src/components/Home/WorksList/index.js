@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 import Image from '../../_base/Image';
 
@@ -90,9 +91,11 @@ export default function WorksList() {
           </div>
         </div>
       </section>
-      <Link to='/portfolio' className="portfolio-link">
-        MORE PROJECTS HERE :)
-      </Link>
+      <HashLink to='#portfolio'>
+        <Link to='/portfolio' className="portfolio-link">
+          MORE PROJECTS HERE :)
+        </Link>
+      </HashLink>
     </div>
   );
 }
