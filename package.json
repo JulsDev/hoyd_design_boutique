@@ -11,6 +11,7 @@
     "last 3 version"
   ],
   "scripts": {
+    "clean": "rm -rf ./build",
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "watch": "cross-env NODE_ENV=development webpack --mode development --watch",

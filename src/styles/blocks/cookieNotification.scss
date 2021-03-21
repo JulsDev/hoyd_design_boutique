@@ -1,0 +1,25 @@
+.notification-block {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-height: 100px;
+  width: 100%;
+  max-width: 1024px;
+  position: fixed;
+  bottom: 0;
+  left: 15%;
+  background: rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.notification-block__descr {
+  display: flex;
+  color: $text;
+  margin-right: 10%;
+}
+
+.notification-block__btn {
+  width: 220px;
+}
+
