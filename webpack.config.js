@@ -2,9 +2,11 @@ const path = require('path')
 
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin} = require('clean-webpack-plugin')
-const CopyWebpackPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
+const CopyWebpackPlugin =  require('copy-webpack-plugin')
+const autoprefixer = require('autoprefixer')
+const cssnano = require('cssnano')
+// const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
 
 const isDev = process.env.NODE_ENV === 'development'
@@ -23,15 +25,20 @@ const plugins = () => {
         collapseWhitespace: isProd      // оптимизация html файла
       }
     }),
+    new CopyWebpackPlugin ({
+      patterns: [
+        { from: '../public/favicon.ico', to: './' },
+        { from: '../public/manifest.json', to: './' },
+      ]
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].[hash].css'
-    })
-    // new CopyWebpackPlugin({})
+    })    
   ]
 
-  if(isProd) {
-    base.push(new BundleAnalyzerPlugin());
-  }
+  // if(isProd) {
+  //   base.push(new BundleAnalyzerPlugin());
+  // }
 
   return base;
 }
@@ -56,8 +63,6 @@ module.exports = {
     }
   },
   
-  plugins: plugins(),
-  
   module: {
     rules: [
       {
@@ -66,13 +71,32 @@ module.exports = {
           'style-loader',
           MiniCssExtractPlugin.loader,
           'css-loader',
+          {
+            loader: require.resolve('postcss-loader'),
+            options: {
+              ident: 'postcss',
+              plugins: () => [
+                autoprefixer({
+                  flexbox: 'no-2009'
+                }),
+                cssnano({
+                  preset: 'default'
+                })
+              ]
+            }
+          },
           'sass-loader'
         ],
         exclude: /node_modules/,              // webpack идет справа налево (в данной записи снизу-наверх)  
       },
       {
         test: /\.(png|svg|jpg|gif)$/,         // если файл соотв. данному расширению, то используй use
-        use: ['file-loader']                  // webpack идет справа налево
+        use: [{
+          loader:'file-loader',               // webpack идет справа налево
+          query: {
+            name: 'img/[name].[ext]'
+          }
+        }],
       },
       {
         test: /\.(ttf|woff|woff2|eot)$/,      // если файл соотв. данному расширению, то используй use
@@ -86,9 +110,12 @@ module.exports = {
     ]
   },
 
+  plugins: plugins(),
+
   devServer: {                        
     contentBase: path.resolve(__dirname, 'build'),    // автоматом обновляет страницы, если что-то поменялось
     port: 4200,                                       // 
-    hot: isDev                                        // Если isDev=true, значит работаем в режиме development 
+    hot: isDev,                                        // Если isDev=true, значит работаем в режиме development 
+    historyApiFallback: true
   }
 }

@@ -8,7 +8,7 @@
   z-index: 2;
   background-color: $white;
   font-family: 'AvenirNext';
-  box-shadow: 0 10px 70px 0 rgba(98, 172, 193, 0.1);
+  box-shadow: 20px 23px 42px 0 rgba(0, 0, 0, 0.07), -11px -10px 44px 0 #ffffff;
 }
 
 .header-block {
@@ -37,11 +37,4 @@
 
 .language-block__text {
   margin-right: 5px;
-}
-.triangle-down {
-  height: 0;
-  border-left: 3px solid transparent;
-	border-right: 3px solid transparent;
-  border-top: 4px solid $text;
-  border-bottom-width: 0;
 }

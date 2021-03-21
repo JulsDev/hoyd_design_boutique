@@ -1,0 +1,116 @@
+.title__develop {
+  margin-bottom: 8%;
+  @include phones {
+    padding: 10%;
+  }
+}
+
+.section-dev__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  // max-width: 650px;
+  position: relative;
+}
+
+.dev__content-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 650px;
+  margin-bottom: 42px;
+
+  &:last-child{
+    margin-bottom: 0;
+  }
+
+  @include tablets {
+    margin-bottom: 32px;
+  }
+}
+
+.dev__content-text {
+  font-family: 'AvenirNext_UltraLight';
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  width: 33%;
+
+  &--left {
+    margin-right: 45px;
+  }
+  &--right {
+    margin-left: 45px;
+  }
+
+  @include phones {
+    font-size: 16px;
+    width: 26%;
+  }
+}
+
+.dev__content-circle-wrap {
+  display: flex;
+  // width: 15%;
+
+  @include tablets {
+    padding-left: 1%;
+  }
+
+  @include phones {
+    justify-content: center;
+  }
+}
+
+.dev__content-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  box-shadow: 20px 23px 42px 0 rgba(0, 0, 0, 0.07), -10px -10px 44px 0 #ffffff;
+  background-color: #ffffff;
+
+  @include phones-xs {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+.dev__content-number {
+  color: $main;
+  // font-size: 32px;
+  letter-spacing: 6px;
+  // font-family: 'bungee hairline';
+  // font-family: 'AvenirNext';
+  // font-weight: 700;
+  font-family: 'AvenirNext';
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 12%;
+}
+
+.section-develop__arrow {
+  max-height: 429px;
+  position: absolute;
+  // margin-right: 3%;
+  margin-top: 6%;
+  z-index: -1;
+
+  @include tablets {
+    margin-top: 8%;
+    max-height: 365px;
+  }
+  @include phones {
+    margin-right: 0;
+    max-height: 385px;
+    margin-top: 15%;
+  }
+  @include phones-xs {
+    margin-top: 18%;
+  }
+}

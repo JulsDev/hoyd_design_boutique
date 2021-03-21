@@ -1,16 +1,17 @@
 .title {
-  font-family: 'SFProDisplay';
-  font-size: 36px;
-  font-weight: 200;
-  letter-spacing: 10px;
-  color: $title;
+  font-family: 'AvenirNext_UltraLight';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 6px;
+  color: $black;
   text-transform: uppercase;
   text-align: center;
 
   @include tablets {
-    font-size: 32px;
+    font-size: 22px;
   }
   @include phones {
-    font-size: 24px;
+    font-size: 21px;
   }
 }

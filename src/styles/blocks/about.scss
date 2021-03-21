@@ -4,38 +4,20 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+}
 
-  &:before {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    max-width: 25px;
-    max-height: 440px;
-    background-image: url('../img/about-line.png');
-    background-repeat: no-repeat;
-    z-index: 5;
-  }
-
-  &:after {
-    position: absolute;
-    content: '';
-    bottom: -40%;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    max-width: 25px;
-    max-height: 500px;
-    background-image: url('../../img/skills-line.png');
-    background-repeat: no-repeat;
-    z-index: 5;
-  }
+.section-about__img-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
 }
 
 .title__about {
   margin-bottom: 8%;
+  @include phones {
+    margin-bottom: 20%;
+  }
 }
 
 .section-about__card {
@@ -43,20 +25,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 100%;
   height: 100%;
   max-width: 85%;
   max-height: 370px;
-  border-radius: 70px;
-  box-shadow: 0 10px 70px 0 rgba(98, 172, 193, 0.15);
+  padding: 0 11%;
+  border-radius: 50px;
+  box-shadow: 20px 23px 42px 0 rgba(0, 0, 0, 0.07), -11px -10px 44px 0 #ffffff;
   background-color: #ffffff;
 
   @include tablets {
-    max-height: 310px;
+    max-height: 420px;
     padding: 40px;
   }
   @include phones-xs {
-    padding: 28px;
+    padding: 38px;
     line-height: 1.2;
   }
 }
@@ -65,7 +49,7 @@
   color: $text;
   font-family: 'SFProDisplay';
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 2px;
   line-height: 1.5;
 
