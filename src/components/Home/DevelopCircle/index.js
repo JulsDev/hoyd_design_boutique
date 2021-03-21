@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Image from '../../_base/Image';
-import devArrow from '../../../assets/img/main/dev-arrow.png';
+import Image from 'components/_base/Image';
+import devArrow from 'assets/img/main/dev-arrow.png';
 
 
 export default function DevelopCircle() {

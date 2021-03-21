@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
-import Image from '../../_base/Image';
+import Image from 'components/_base/Image';
 
-import worksLine from '../../../assets/img/main/works-line.png';
-import firstImgPath from '../../../assets/img/works/cashwagon-main.png';
-import secondImgPath from '../../../assets/img/works/clossapp.png';
-import thirdImgPath from '../../../assets/img/works/blackcard.png';
-import backImageHoyd from '../../../assets/img/main/workHoyd.png';
-import backImageDesign from '../../../assets/img/main/workDesign.png';
+import worksLine from 'assets/img/main/works-line.png';
+import firstImgPath from 'assets/img/works/cashwagon-main.png';
+import secondImgPath from 'assets/img/works/clossapp.png';
+import thirdImgPath from 'assets/img/works/blackcard.png';
+import backImageHoyd from 'assets/img/main/workHoyd.png';
+import backImageDesign from 'assets/img/main/workDesign.png';
 
 export default function WorksList() {
 

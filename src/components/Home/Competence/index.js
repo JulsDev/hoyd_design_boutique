@@ -1,10 +1,10 @@
 import React from 'react';
-import Image from '../../_base/Image';
+import Image from 'components/_base/Image';
 
-import designImgPath from '../../../assets/img/competence/design.png'
-import visualImgPath from '../../../assets/img/competence/visual.png'
-import consultingImgPath from '../../../assets/img/competence/consulting.png'
-import skillsLine from '../../../assets/img/main/skills-line.png';
+import designImgPath from 'assets/img/competence/design.png'
+import visualImgPath from 'assets/img/competence/visual.png'
+import consultingImgPath from 'assets/img/competence/consulting.png'
+import skillsLine from 'assets/img/main/skills-line.png';
 
 
 export default function Competence() {

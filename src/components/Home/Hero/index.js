@@ -1,8 +1,8 @@
 import React from 'react';
-import Image from '../../_base/Image';
+import Image from 'components/_base/Image';
 
-import bannerPath from '../../../assets/img/main/banner.png';
-import hoydLine from '../../../assets/img/main/hoyd-line.png';
+import bannerPath from 'assets/img/main/banner.png';
+import hoydLine from 'assets/img/main/hoyd-line.png';
 
 export default function Hero() {
 

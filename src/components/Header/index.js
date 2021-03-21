@@ -1,8 +1,9 @@
 import React from 'react';
-import Menu from '../Menu';
-import Image from '../_base/Image';
 
-import logoPath from '../../assets/img/logo.png';
+import Menu from 'components/Menu';
+import Image from 'components/_base/Image';
+
+import logoPath from 'assets/img/logo.png';
 
 export default function Header() {
 
