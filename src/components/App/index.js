@@ -15,7 +15,16 @@ const changeLanguage = (language) => {
 export default function App() {
   // проверяем localStorage вошедшего пользователя
   // если он первый раз -> показываем окно с куками
-  const cookieInfo = localStorage.getItem('cookieAccept');
+  let cookieInfo = false;
+  const curCookieInfo = localStorage.getItem('cookieAccept');
+  const curDate = new Date();
+  const cookieDate = new Date(curCookieInfo);
+
+  if (!curCookieInfo || curDate.getMonth() > cookieDate.getMonth()) {
+    cookieInfo = false;
+  } else {
+    cookieInfo = true;
+  }
 
   return (
     <div className="wrapper">
