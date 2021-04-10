@@ -3,8 +3,10 @@ import Image from 'components/_base/Image';
 
 import bannerPath from 'assets/img/main/banner.png';
 import hoydLine from 'assets/img/main/hoyd-line.png';
+import { useTranslation } from 'react-i18next';
 
 export default function Hero() {
+  const { t } = useTranslation();
 
   const bannerInfo = {
     src: bannerPath,
@@ -21,7 +23,7 @@ export default function Hero() {
       </div>
       <div className="section-main__text">
         <p className="section-main__reinvent">
-          WE CREATE SOLUTIONS THAT DRIVE RESULTS
+          {(t('heroSlogan')).toUpperCase()}
         </p>
       </div>
     </section>

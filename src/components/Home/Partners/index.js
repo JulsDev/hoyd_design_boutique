@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'components/_base/Image';
+import { useTranslation } from 'react-i18next';
 
 import partner1 from 'assets/img/partners/deltakredit-partner.png';
 import partner2 from 'assets/img/projects/glonas-partner.png';
@@ -15,10 +16,13 @@ import partner11 from 'assets/img/partners/buyex-partner.png';
 import partner12 from 'assets/img/partners/gratzbonus-partners.png';
 
 export default function Partners() {
+  const {t} = useTranslation();
 
   return (
     <section className="section-partners">
-      <h2 className="title title__partners">They trust us</h2>
+      <h2 className="title title__partners">
+        {t('companies.title')}
+      </h2>
       <div className="partners-image__list">
         <Image src={partner1} alt='deltakredit' classes='partners-image__item'/>
         <Image src={partner2} alt='glonas' classes='partners-image__item'/>

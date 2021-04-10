@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next';
+import parse from 'html-react-parser';
 
 export default function CookieNotification(props) {
   const { cookieInfo } = props;
+  const {t} = useTranslation();
   const [isOpen, setIsOpen] = useState(cookieInfo ? false : true);
 
   function handleIsOpen() {
@@ -16,15 +19,14 @@ export default function CookieNotification(props) {
   return (
     <div className="notification-block">
       <div className="notification-block__descr">
-        Этот сайт использует файлы cookie для хранения данных. <br />
-        Продолжая использовать сайт, вы даете согласие на работу с этими данными
+        {parse(t('cookies.text'))}
       </div>
       <button
         type='button'
         onClick={handleIsOpen}
-        className="button notification-block__btn"
+        className="button notification-block__btn button--hover"
       >
-        Прекрасно
+        {t('cookies.confirmBtn')}
       </button>
     </div>
   )

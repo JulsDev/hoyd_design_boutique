@@ -3,10 +3,12 @@ import { HashLink } from 'react-router-hash-link';
 
 import data from 'assets/projects.json';
 import ProjectCard from 'components/ProjectCard';
+import { useTranslation } from 'react-i18next';
 
 const tags = ['all', 'financial', 'blockchain', 'government', 'social'];
 
 export default function ProjectList() {
+  const {t} = useTranslation('portfolio');
   const [category, setCategory] = useState('all');
   const [categoryList, setCategoryList] = useState(data);
 
@@ -28,7 +30,9 @@ export default function ProjectList() {
 
   return (
     <div className="section-cases">
-      <h2 className="title title__cases">our cases</h2>
+      <h2 className="title title__cases">
+        {t('title')}
+      </h2>
       
       <ul className="cases-tags__list">
         {tags.map((item, index) => {

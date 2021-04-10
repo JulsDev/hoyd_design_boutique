@@ -9,12 +9,15 @@ import './styles/_misc/fonts.scss';
 import './styles/index.scss';
 
 // Main component
+import './i18n';
 import App from './components/App';
 
 
 ReactDOM.render(
-  <BrowserRouter >
+  <>
+    <BrowserRouter >
       <App />
-  </BrowserRouter>,
+    </BrowserRouter>
+  </>,
   document.getElementById('root')
 )

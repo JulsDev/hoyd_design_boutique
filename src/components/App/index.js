@@ -1,9 +1,16 @@
 import React from 'react';
+import i18n from 'src/i18n';
 
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 import Content from 'components/Content';
 import CookieNotification from 'components/CookieNotification';
+
+const changeLanguage = (language) => {
+  return () => {
+    i18n.changeLanguage(language);
+  }
+};
 
 export default function App() {
   // проверяем localStorage вошедшего пользователя
@@ -12,7 +19,7 @@ export default function App() {
 
   return (
     <div className="wrapper">
-      <Header />
+      <Header changeLanguage={changeLanguage} />
       <Content />
       <Footer />
       <CookieNotification cookieInfo={cookieInfo} />
