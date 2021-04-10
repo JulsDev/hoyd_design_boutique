@@ -1,9 +1,10 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
-
+import { useTranslation } from 'react-i18next';
 import Image from 'components/_base/Image';
 
 export default function ProjectCard({ projectInfo }) {
+  const {t} = useTranslation('portfolio');
 
   require(`assets/img/projects/${projectInfo.logo}`);
   require(`assets/img/projects/${projectInfo.mainImage}`);
@@ -22,8 +23,8 @@ export default function ProjectCard({ projectInfo }) {
         </div>
         <a href={projectInfo.workLink} target="_blank" className="case__link">{projectInfo.workLinkText}</a>
           <HashLink smooth to='#contact'>
-            <button className="button button__case">
-                Apply for design
+            <button className="button button__case button--hover">
+              {t('applyButton')}
             </button>
           </HashLink> 
       </li>
