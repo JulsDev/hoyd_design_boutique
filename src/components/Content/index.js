@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Home from '../Home'
-import Portfolio from '../Portfolio'
+import Home from 'components/Home'
+import Portfolio from 'components/Portfolio'
 
 
 export default function Content () {

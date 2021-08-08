@@ -1,0 +1,59 @@
+{
+  "portfolio": "Portfolio",
+  "contacts": "Contacts",
+  "heroSlogan": "WE CREATE SOLUTIONS THAT DRIVE RESULTS",
+  "about": {
+    "title": "about us",
+    "descr": "The heart & soul of every business is an outstanding interface design.",
+    "team": "Our professional team is here to provide the latest and finest mobile app and web design solutions."
+  },
+  "devCycle": {
+    "title": "Our efficient <br /> development cycle",
+    "step1": "Research and analyze",
+    "step2": "Unique concept",
+    "step3": "Rapid prototyping",
+    "step4": "Masterful design"
+  },
+  "competence": {
+    "title": "our competence",
+    "first": "We create the most invigorating functionalities for the IOS mobile design.",
+    "second": "We use our best practices for developing app design for Android phones and their specific functions.",
+    "third": "We know all about customized and mobile-friendly websites to ensure higher user satisfaction."
+  },
+  "works": {
+    "title": "Glimpse of what we have done <br /> for our beloved clients",
+    "cashwagon": {
+      "name": "CASHWAGON",
+      "descr": "Digital platform providing access to a broad range of consumer financial products."
+    },
+    "clossApp": {
+      "name": "CLOS APP",
+      "descr": "Conduct remote shoots and take photos and videos on your iPhone with other people as if they are in the same room with you."
+    },
+    "blackcatcard": {
+      "name": "Blackcatcard",
+      "descr": "Mobile bank which offers an instantly ready EU bank account and a Mastercard, accepted worldwide."
+    }
+  },
+  "goProjects": "more projects here :)",
+  "companies": {
+    "title": "they trust us"
+  },
+  "form": {
+    "title": "let's work on a project <br /> together!",
+    "name": "Name",
+    "description": "Short description...",
+    "errors": {
+      "required": "this is required",
+      "shortName": "too short name",
+      "longName": "too long name",
+      "invalidName": "invalid name",
+      "invalidMail": "invalid E-mail"
+    },
+    "button": "Send"
+  },
+  "cookies": {
+    "text": "This site uses cookies to store data. <br /> By continuing to use the site, you consent to the work with this data",
+    "confirmBtn": "Perfect"
+  }
+}

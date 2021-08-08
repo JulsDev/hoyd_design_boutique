@@ -8,12 +8,10 @@ const autoprefixer = require('autoprefixer')
 const cssnano = require('cssnano')
 // const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
-
 const isDev = process.env.NODE_ENV === 'development'
 console.log("isDev", isDev)
 const isProd = process.env.NODE_ENV === 'production'
 console.log("isProd", isProd)
-
 
 const plugins = () => {
   const base = [
@@ -43,7 +41,6 @@ const plugins = () => {
   return base;
 }
 
-
 module.exports = {
   mode: 'development',                          // режим сборки (если не указываем, то собирает production)
   context: path.resolve(__dirname, 'src'),      // с какой папкой работаем
@@ -55,6 +52,18 @@ module.exports = {
   output: {                                     
     filename: '[name].[hash].js',               // формируем имя с hash, чтобы не было проблем с кешем 
     path: path.resolve(__dirname, 'build')       // куда положить собранное
+  },
+
+  resolve: {
+    extensions: ['.jsx', '.js'],
+    alias: {
+      public: path.resolve('./public/'),
+      src: path.resolve('./src/'),
+      assets: path.resolve('./src/assets/'),
+      components: path.resolve('./src/components/'),
+      styles: path.resolve('./src/styles/'),
+      utils: path.resolve('./src/utils/')
+    }
   },
   
   optimization: {               // контролирует, что если два раза подключали библиотеку

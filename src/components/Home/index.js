@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from './Hero';
 import About from './About';
 import Competence from './Competence';
-import FormContacts from '../FormContacts';
+import FormContacts from 'components/FormContacts';
 import WorksList from './WorksList';
 import Partners from './Partners';
 import DevelopCircle from './DevelopCircle';

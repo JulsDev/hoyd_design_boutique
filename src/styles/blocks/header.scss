@@ -38,3 +38,9 @@
 .language-block__text {
   margin-right: 5px;
 }
+
+.langButton {
+  &:hover {
+    color: $main;
+  }
+}

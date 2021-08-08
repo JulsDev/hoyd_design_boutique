@@ -1,10 +1,13 @@
 import React from 'react';
-import Menu from '../Menu';
-import Image from '../_base/Image';
 
-import logoPath from '../../assets/img/logo.png';
+import Menu from 'components/Menu';
+import Image from 'components/_base/Image';
+import Localization from 'components/Localization';
 
-export default function Header() {
+import logoPath from 'assets/img/logo.png';
+
+export default function Header(props) {
+  const { changeLanguage } = props;
 
   const logoInfo = {
     src: logoPath,
@@ -25,6 +28,7 @@ export default function Header() {
             <div className="menu">
               <Menu />
             </div>
+            <Localization changeLanguage={changeLanguage} />
           </div>
         </div>
       </div>
