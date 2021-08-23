@@ -13,8 +13,8 @@ const changeLanguage = (language) => {
 };
 
 export default function App() {
-  // проверяем localStorage вошедшего пользователя
-  // если он первый раз -> показываем окно с куками
+  // check localStorage for current user
+  // if he came for the first time -> show window with cookies
   let cookieInfo = false;
   const curCookieInfo = localStorage.getItem('cookieAccept');
   const curDate = new Date();

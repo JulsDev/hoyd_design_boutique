@@ -20,17 +20,17 @@ const resources = {
 };
 
 i18n
-  // Подключение бэкенда i18next
+  // backend connection i18next
   .use(Backend)
-  // Автоматическое определение языка
+  // Automatic language detection
   .use(LanguageDetector)
-  // Модуль инициализации
+  // Initialization module
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: 'en',        // Стандартный язык
+    fallbackLng: 'en',        // Standard language
     debug: true,
-    detection: {              // Распознавание и кэширование языковых кук
+    detection: {              // Language cookie recognition and caching
       order: ['queryString', 'cookie'],
       cash: ['cookie']
     },
