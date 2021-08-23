@@ -6,6 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CopyWebpackPlugin =  require('copy-webpack-plugin')
 const autoprefixer = require('autoprefixer')
 const cssnano = require('cssnano')
+const webpack = require('webpack')
 // const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
 const isDev = process.env.NODE_ENV === 'development'
@@ -15,23 +16,36 @@ console.log("isProd", isProd)
 
 const plugins = () => {
   const base = [
-    new CleanWebpackPlugin(),         // Очищает папку со сборкой
-    new HTMLWebpackPlugin({           // Создает автоматически index.html с нужными скриптами
-      template: '../public/index.html',
-      publicUrl: '../public',
+    new CleanWebpackPlugin(),         // Clear build folder
+    new HTMLWebpackPlugin({           // Creates automatically index.html with the necessary scripts
+      template: path.resolve(__dirname, 'public/index.html'),
+      publicUrl: path.resolve(__dirname, 'public'),
       minify: {
-        collapseWhitespace: isProd      // оптимизация html файла
+        collapseWhitespace: isProd      // html optimization
       }
     }),
     new CopyWebpackPlugin ({
       patterns: [
-        { from: '../public/favicon.ico', to: './' },
-        { from: '../public/manifest.json', to: './' },
+        { 
+          from: path.resolve(__dirname, 'public/favicon.ico'),
+          to: path.resolve(__dirname, 'build')
+        },
+        {
+          from: path.resolve(__dirname, 'public/manifest.json'),
+          to: path.resolve(__dirname, 'build')
+        },
+        {
+          from: path.resolve(__dirname, 'public/404.html'),
+          to: path.resolve(__dirname, 'build')
+        },
       ]
     }),
     new MiniCssExtractPlugin({
       filename: '[name].[hash].css'
-    })    
+    }),
+    new webpack.DefinePlugin({
+      'process.env.PUBLIC_URL': process.env.PUBLIC_URL
+    }) 
   ]
 
   // if(isProd) {
@@ -42,32 +56,32 @@ const plugins = () => {
 }
 
 module.exports = {
-  mode: 'development',                          // режим сборки (если не указываем, то собирает production)
-  context: path.resolve(__dirname, 'src'),      // с какой папкой работаем
+  mode: 'development',                          // build mode (production by default)
+  context: path.resolve(__dirname, 'src'),
   
-  entry: {                                      // откуда начать сборку
+  entry: {                                      // build start
     main: './index.js'
   },
   
   output: {                                     
-    filename: '[name].[hash].js',               // формируем имя с hash, чтобы не было проблем с кешем 
-    path: path.resolve(__dirname, 'build')       // куда положить собранное
+    filename: '[name].[hash].js', 
+    path: path.resolve(__dirname, 'build')
   },
 
   resolve: {
     extensions: ['.jsx', '.js'],
     alias: {
-      public: path.resolve('./public/'),
-      src: path.resolve('./src/'),
-      assets: path.resolve('./src/assets/'),
-      components: path.resolve('./src/components/'),
-      styles: path.resolve('./src/styles/'),
-      utils: path.resolve('./src/utils/')
+      public: path.resolve(__dirname, 'public/'),
+      src: path.resolve(__dirname, 'src/'),
+      assets: path.resolve(__dirname, 'src/assets/'),
+      components: path.resolve(__dirname, 'src/components/'),
+      styles: path.resolve(__dirname, 'src/styles/'),
+      utils: path.resolve(__dirname, 'src/utils/')
     }
   },
   
-  optimization: {               // контролирует, что если два раза подключали библиотеку
-    splitChunks: {              // нужно вынести код этой библиотеки в общий vendor.js файл
+  optimization: {               // controls that if the library was connected twice
+    splitChunks: {              // move the code of this library into a common vendor.js file 
       chunks: 'all'
     }
   },
@@ -96,19 +110,19 @@ module.exports = {
           },
           'sass-loader'
         ],
-        exclude: /node_modules/,              // webpack идет справа налево (в данной записи снизу-наверх)  
+        exclude: /node_modules/,  
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,         // если файл соотв. данному расширению, то используй use
+        test: /\.(png|svg|jpg|gif)$/,
         use: [{
-          loader:'file-loader',               // webpack идет справа налево
+          loader:'file-loader',
           query: {
             name: 'img/[name].[ext]'
           }
         }],
       },
       {
-        test: /\.(ttf|woff|woff2|eot)$/,      // если файл соотв. данному расширению, то используй use
+        test: /\.(ttf|woff|woff2|eot)$/,
         use: 'file-loader'
       },
       {
@@ -122,9 +136,9 @@ module.exports = {
   plugins: plugins(),
 
   devServer: {                        
-    contentBase: path.resolve(__dirname, 'build'),    // автоматом обновляет страницы, если что-то поменялось
-    port: 4200,                                       // 
-    hot: isDev,                                        // Если isDev=true, значит работаем в режиме development 
+    contentBase: path.resolve(__dirname, 'build'),
+    port: 4200,
+    hot: isDev,
     historyApiFallback: true
   }
 }

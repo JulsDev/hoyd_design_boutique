@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 import Menu from 'components/Menu';
 import Image from 'components/_base/Image';
@@ -20,9 +21,9 @@ export default function Header(props) {
       <div className="container">
         <div className="header-block">
           <div className="header-block__left">
-            <a href="./">
+            <Link to="/">
               <Image src={logoInfo.src} className={logoInfo.classes} alt={logoInfo.alt} />
-            </a>
+            </Link>
           </div>
           <div className="header-block__right">
             <div className="menu">

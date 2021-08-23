@@ -1,11 +1,11 @@
 {
   "name": "hoyd",
   "version": "1.0.0",
-  "description": "webpack course",
+  "description": "hoyd design boutique",
   "author": "Aseeva Julia",
   "license": "ISC",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://julsdev.github.io/hoyd_design_boutique/",
   "browsersList": [
     "> 1%",
     "last 3 version"
@@ -16,7 +16,9 @@
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
-    "stats": "webpack --json > stats.json && webpack-bundle-analyzer stats.json"
+    "stats": "webpack --json > stats.json && webpack-bundle-analyzer stats.json",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
@@ -29,6 +31,7 @@
     "copy-webpack-plugin": "^6.4.1",
     "css-loader": "^4.2.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "html-react-parser": "^1.2.4",
     "html-webpack-plugin": "^4.5.2",
     "mini-css-extract-plugin": "^0.9.0",

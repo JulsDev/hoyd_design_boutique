@@ -11,7 +11,6 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  // max-width: 650px;
   position: relative;
 }
 
@@ -54,7 +53,6 @@
 
 .dev__content-circle-wrap {
   display: flex;
-  // width: 15%;
 
   @include tablets {
     padding-left: 1%;
@@ -83,11 +81,7 @@
 
 .dev__content-number {
   color: $main;
-  // font-size: 32px;
   letter-spacing: 6px;
-  // font-family: 'bungee hairline';
-  // font-family: 'AvenirNext';
-  // font-weight: 700;
   font-family: 'AvenirNext';
   font-size: 28px;
   font-weight: 600;
@@ -97,7 +91,6 @@
 .section-develop__arrow {
   max-height: 429px;
   position: absolute;
-  // margin-right: 3%;
   margin-top: 6%;
   z-index: -1;
 

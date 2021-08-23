@@ -12,10 +12,11 @@ import './styles/index.scss';
 import './i18n';
 import App from './components/App';
 
+import { baseUrl } from 'utils/urls';
 
 ReactDOM.render(
   <>
-    <BrowserRouter >
+    <BrowserRouter basename={baseUrl}>
       <App />
     </BrowserRouter>
   </>,
